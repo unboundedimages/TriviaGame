@@ -1,0 +1,110 @@
+<!--This page will contain a bootstrap Jumbotron.  Inside the JUMBOTRON, there will be a timer.-->
+<!--Below the timer, there will be the title of the game "Trivia blah blah blah"-->
+<!--The main section is where the questions will show up bulleted in an unorder list.-->
+<!--Under each question,  there will be either a true false, or mulitple choice.  I think I  want multiple choice.  3 - 5 choices.-->
+<!--I will start with 3 questions.  More will be added once I get the functionality working.-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Trivia Time</title>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <div class="container">
+            <div class="jumbotron">
+                  <h1>
+                        <center>
+                              <span id="timer2"></span>
+                        </center>
+
+                        <p>
+                              <center>
+                                    <span id="timer"></span>
+                              </center>
+                        </p>
+
+
+                  </h1>
+                  <p><a class="btn btn-primary btn-lg" id="button">Start Clock</a></p>
+            </div>
+
+            <!--<div class=questions>-->
+
+            <!--      <ul>-->
+
+            <!--<div id=quest1>-->
+
+            <!--      <p>-->
+            <!--            <li>What year did the matrix come out?</li>-->
+            <!--      </p>-->
+            <!--<div class="correrct">-->
+            <!--      <label class="radio-inline"><input type="radio" name="optradio">1999 </label>-->
+            <!--</div>-->
+            <!--<div class="incorrerct">-->
+            <!--      <label class="radio-inline"><input type="radio" name="optradio">2000 </label>-->
+            <!--</div>-->
+            <!--<div class="incorrerct">-->
+            <!--      <label class="radio-inline"><input type="radio" name="optradio">2003</label>-->
+            <!--</div>-->
+            <!--                  <label class="correct radio-inline"><input type="radio" name="optradio">1999</label>-->
+            <!--                  <label class="incorrect radio-inline"><input type="radio" name="optradio">2000</label>-->
+            <!--                  <label class="incorrect radio-inline"><input type="radio" name="optradio">2003</label>-->
+            <!--            </div>-->
+
+            <!--<div id=quest2>-->
+            <!--<p>-->
+            <!--      <li> How is agent Smith relative to Neo?</li>-->
+            <!--</p>-->
+            <!--<label class="radio-inline"><input type="radio" name="optradio" value="0">1st cousins</label>-->
+            <!--<label class="incorrect radio-inline"><input type="radio" name="optradio">1st cousins</label>-->
+            <!--<label class="incorrect radio-inline"><input type="radio" name="optradio">Went to the same orphanage</label>-->
+            <!--<label class="correct radio-inline"><input type="radio" name="optradio">Balance an equation</label>-->
+            <!--</div>-->
+            <!--<div id=quest3>-->
+            <!--      <p>-->
+            <!--            <li> The term De Ja Vu meant what?</li>-->
+            <!--      </p>-->
+            <!--<label class="incorrect radio-inline"><input type="radio" name="optradio">A lucid dream</label>-->
+            <!--<label class="incorrect radio-inline"><input type="radio" name="optradio">Strong visualization manifested</label>-->
+            <!--<label class="correct radio-inline"><input type="radio" name="optradio">A glitch</label>-->
+            <!--</div>-->
+            <!--      </ul>-->
+
+            <!--</div>-->
+            <div class="alert alert-success" role="alert">
+                  What year did the matrix come out?
+                  <div class="panel panel-danger">
+                        <h5> <label class="correct radio-inline"><input type="radio" name="optradio">1999</label>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">2000</label>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">2003</label>
+                        </h5>
+                  </div>
+
+                  How is agent Smith relative to Neo?
+                  <div class="panel panel-danger">
+                        <h4><label class="radio-inline"><input type="radio" name="optradio" value="0">1st cousins</label>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">1st cousins</label>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">Went to the same orphanage</label>
+                              <label class="correct radio-inline"><input type="radio" name="optradio">Balance an equation</label>
+                        </h4>
+                  </div>
+
+                  What did the term: De-Ja-Vu?
+                  <div class="panel panel-danger">
+                        <h4>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">A lucid dream</label>
+                              <label class="incorrect radio-inline"><input type="radio" name="optradio">Strong visualization manifested</label>
+                              <label class="correct radio-inline"><input type="radio" name="optradio">A glitch</label>
+
+                        </h4>
+                  </div>
+
+                  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+                  </body>
+
+</html>

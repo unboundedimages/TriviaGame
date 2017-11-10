@@ -1,0 +1,77 @@
+.container {
+
+    max-width: 960px;
+    background-image: url(http://matrix-screensaver.windows10compatible.com/media/screenshots/1692_screen.jpg)
+}
+
+/*.sliding-background {*/
+
+/*    background-image: url(http://matrix-screensaver.windows10compatible.com/media/screenshots/1692_screen.jpg) repeat-x;*/
+
+/*    height: 500px;*/
+
+/*    width: 5076px;*/
+
+/*}*/
+
+.alert {
+    color: #07e60c;
+    background-color: #081a01e6;
+    border-color: #d6e9c6;
+    font-size: large;
+    font-weight: bold;
+    /*font-weight: 100px;*/
+}
+
+.panel {
+
+    background-color: #ffffff1a;
+
+}
+
+.panel-danger {
+    border-color: #021001;
+}
+
+.jumbotron {
+    background-image: url(https://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/import/2013/images/2009/11/Matrix.jpg?itok=rAqDW_Rz);
+    background-color: #1e4c0ba3;
+    height: 300px;
+    opacity: 20;
+}
+
+/*#timer is the countdown clock*/
+
+#timer {
+    color: #94dc75;
+    box-shadow: -15px -0px 30px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+/*#time2 is game over*/
+
+#timer2 {
+    color: #75ac5e;
+}
+
+.btn-primary {
+
+    color: #aade95;
+
+    background-color: red;
+
+    border-color: #071601;
+
+}
+
+.btn-primary:hover {
+    /*background-color: #ff00004a;*/
+    box-shadow: 30px 15px 15px rgba(0, 0, 0, 0.5);
+    /*transform: translate(2px, 20px);*/
+    cursor: pointer;
+    transition: box-shadow 2s, transform 3s;
+}
+
+body {
+    background-color: #051001;
+}

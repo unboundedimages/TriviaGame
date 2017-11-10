@@ -44,8 +44,8 @@
 
 #timer {
     color: #94dc75;
-    box-shadow: -15px -0px 30px 10px rgba(0, 0, 0, 0.8);
-
+    box-shadow: -5px -0px 5px 5px rgba(0, 0, 0, 0.4);
+    /*text-shadow: 0px 0px 15px rgb(0, 0, 0, 0.8);*/
 }
 
 /*#time2 is game over*/
@@ -74,4 +74,10 @@
 
 body {
     background-color: #051001;
+}
+
+.answers {
+    color: #aade95;
+    text-align: right;
+    clear: both;
 }

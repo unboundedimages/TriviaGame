@@ -1,6 +1,6 @@
  // Timer has bugs
  $(document).on('click', "#button", function() {
-  var time = 45;
+  var time = 5;
 
   function redirect() {
    var id = setTimeout(redirect, 1000); // function will fired for every one second
@@ -18,8 +18,11 @@
   redirect();
  });
 
+ $("#button2").on("click", function() {
 
-//example of what can be done to access the id's on the other
+  alert("you need to calm down");
+ });
+ //example of what can be done to access the id's on the other
 
  // <div class="choice" data-value = 0>Charlotte</div>
  // <div class="choice">Raleigh</div>
@@ -32,3 +35,4 @@
  //  var val = $(this).attr('data-value'); //0
 
  // })
+ 
